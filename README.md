@@ -3,3 +3,5 @@
 ###### Original JS can be found at: scripts/regJS.js
 ###### *For educational purposes only*
 ###### [GitHub Pages live example](https://jmcromp.github.io/obfuscation/)
+###### [Nifty tool](https://obfuscator.io/)
+
