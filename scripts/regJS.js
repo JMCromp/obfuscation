@@ -59,6 +59,7 @@ myInput.onkeyup = function() {
         length.classList.add("invalid");
     }
 
+    // On click for submit to display success box
     submit.addEventListener("click", () => {
         if(myInput.value == "Cactus1"){
             success.style.display = "block";
