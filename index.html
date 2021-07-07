@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="backdrop">
+    <div id="success">
+        <p>Nice work, nerd.</p>
+    </div>
+    <div class="container">
+        <form>
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 7 or more characters" required>
+            <input type="button" id="submit" value="Submit">
+        </form>
+    </div>
+        
+    <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">5 <b>lowercase</b> letters</p>
+        <p id="capital" class="invalid">1 <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">1 <b>number</b></p>
+        <p id="length" class="invalid">and <b>7 characters</b></p>
+    </div>
+</div>
+<script src="scripts/obsJS.js"></script>
+</body>
+</html>
