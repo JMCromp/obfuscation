@@ -1,0 +1,96 @@
+/* Restrict main size */
+   .backdrop {
+    margin: 10% 25% 25% 25%;
+    width: 30vw;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 25px;
+    color: #fff;
+  }
+
+  .backdrop .container {
+    background-image: url('../images/image.jpg');
+  }
+
+/* Success box */
+#success {
+  background-color: #04AA6D;
+  height: 5%;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  #submit {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
